@@ -6689,6 +6689,10 @@ button.bg-danger:focus {
   background-color: #f8f9fa !important;
 }
 
+.bg-light, .bg-light * {
+    color: #012554 !important;
+}
+
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
 button.bg-light:focus {
@@ -10676,6 +10680,50 @@ a.text-dark:hover, a.text-dark:focus {
   opacity: 1;
 }
 
+.testimonial-carousel .owl-item.center {
+  position: relative;
+  z-index: 1;
+}
+
+.testimonial-carousel .owl-item .testimonial-item {
+  transition: .5s;
+}
+
+.testimonial-carousel .owl-item.center .testimonial-item {
+  background: #f32a0b !important;
+  color: #ffffff;
+}
+
+.testimonial-carousel .owl-item.center .testimonial-item * {
+  color: #ffffff;
+}
+
+.testimonial-carousel .owl-nav {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial-carousel .owl-nav .owl-prev,
+.testimonial-carousel .owl-nav .owl-next {
+  position: relative;
+  margin: 0 5px;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background: #f32a0b;
+  font-size: 22px;
+  transition: .5s;
+}
+
+.testimonial-carousel .owl-nav .owl-prev:hover,
+.testimonial-carousel .owl-nav .owl-next:hover {
+  background: #012554;
+}
+
 .testimonial-carousel .owl-dots {
   margin-top: 30px;
   text-align: center;
@@ -10691,7 +10739,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .testimonial-carousel .owl-dot.active {
-  background: #17a2b8;
+  background: #f32a0b;
 }
 
 .contact-form .help-block ul {
